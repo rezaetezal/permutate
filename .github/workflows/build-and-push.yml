@@ -27,7 +27,7 @@ jobs:
           images: |
             registry.digitalocean.com/rezaetezal/permutate
           tags: |
-            type=semver,pattern={{major}}.{{minor}}
+            type=semver,pattern={{version}}
 
       - name: Install doctl
         uses: digitalocean/action-doctl@v2
